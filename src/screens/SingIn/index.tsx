@@ -2,8 +2,7 @@ import React from "react";
 import {  
   View,
   Text,
-  Image,
-  StatusBar
+  Image
 } from "react-native";
 
 import { styles } from './styles';
@@ -14,11 +13,6 @@ export function SingIn(){
 
   return(
     <View style={styles.container}>
-      <StatusBar 
-        barStyle='light-content'
-        backgroundColor='trasparent'
-        translucent
-      />
 
       <Image source={IlustrationImg} style={styles.image} resizeMode='stretch' />
 
